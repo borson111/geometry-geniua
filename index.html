@@ -72,11 +72,12 @@
                       <h2 class="card-title">Parallelogram</h2>
                       <h3>Area (A) = b x h</h3>
                       <div>
-                        <input class="w-20 bg-gray-200 pl-3" placeholder="b" type="text"><span class="mx-3">cm</span>
-                        <input class="w-20 bg-gray-200 pl-3" placeholder="h" type="text"><span class="mx-3">cm</span>
+                        <input id="parallelogram-b" class="w-20 bg-gray-200 pl-3" placeholder="b" type="text"><span class="mx-3">cm</span>
+                        <input id="parallelogram-h" class="w-20 bg-gray-200 pl-3" placeholder="h" type="text"><span class="mx-3">cm</span>
                       </div>
+                      <h4 class="text-xl">Area: <span id="parallelogramArea">00</span>cm<sup>2</sup></h4>
                       <div class="card-actions mt-5">
-                        <button class="btn btn-primary">Calculate</button>
+                        <button id="parallelogram-btn" class="btn btn-primary">Calculate</button>
                       </div>
                     </div>
                   </div>
@@ -90,13 +91,14 @@
                     </figure>
                     <div class="card-body items-center text-center">
                       <h2 class="card-title">Rhombus</h2>
-                      <h3>Area (A) = 0.5 x d1 x d2</h3>
+                      <h3>Area (A) = 0.5 x d<sub>1</sub> x d<sub>2</sub></h3>
                       <div>
-                        <input class="w-20 bg-gray-200 pl-3" placeholder="d1" type="text"><span class="mx-3">cm</span>
-                        <input class="w-20 bg-gray-200 pl-3" placeholder="d2" type="text"><span class="mx-3">cm</span>
+                        <input id="rhombus-d1" class="w-20 bg-gray-200 pl-3" placeholder="d1" type="text"><span class="mx-3">cm</span>
+                        <input id="rhombus-d2" class="w-20 bg-gray-200 pl-3" placeholder="d2" type="text"><span class="mx-3">cm</span>
                       </div>
+                      <h4 class="text-xl">Area: <span id="rhombusArea">00</span>cm<sup>2</sup></h4>
                       <div class="card-actions mt-5">
-                        <button class="btn btn-primary">Calculate</button>
+                        <button id="rhombus-btn" class="btn btn-primary">Calculate</button>
                       </div>
                     </div>
                   </div>
@@ -112,11 +114,12 @@
                           <h2 class="card-title">Pentagon</h2>
                           <h3>Area (A) = 0.5 x p x b</h3>
                           <div>
-                            <input class="w-20 bg-gray-200 pl-3" placeholder="p" type="text"><span class="mx-3">cm</span>
-                            <input class="w-20 bg-gray-200 pl-3" placeholder="b" type="text"><span class="mx-3">cm</span>
+                            <input id="pentagon-p" class="w-20 bg-gray-200 pl-3" placeholder="p" type="text"><span class="mx-3">cm</span>
+                            <input id="pentagon-b" class="w-20 bg-gray-200 pl-3" placeholder="b" type="text"><span class="mx-3">cm</span>
                           </div>
+                          <h4 class="text-xl">Area: <span id="pentagonArea">00</span>cm<sup>2</sup></h4>
                           <div class="card-actions mt-5">
-                            <button class="btn btn-primary">Calculate</button>
+                            <button id="Pentagon-btn" class="btn btn-primary">Calculate</button>
                           </div>
                         </div>
                       </div>
@@ -132,11 +135,12 @@
                           <h2 class="card-title">Ellipse</h2>
                           <h3>Area (A) = 𝝅ab</h3>
                           <div>
-                            <input class="w-20 bg-gray-200 pl-3" placeholder="a" type="text"><span class="mx-3">cm</span>
-                            <input class="w-20 bg-gray-200 pl-3" placeholder="b" type="text"><span class="mx-3">cm</span>
+                            <input id="ellipse-a" class="w-20 bg-gray-200 pl-3" placeholder="a" type="text"><span class="mx-3">cm</span>
+                            <input id="ellipse-b" class="w-20 bg-gray-200 pl-3" placeholder="b" type="text"><span class="mx-3">cm</span>
                           </div>
+                          <h4 class="text-xl">Area: <span id="ellipseArea">00</span>cm<sup>2</sup></h4>
                           <div class="card-actions mt-5">
-                            <button class="btn btn-primary">Calculate</button>
+                            <button id="ellipse-btn" class="btn btn-primary">Calculate</button>
                           </div>
                         </div>
                       </div>
